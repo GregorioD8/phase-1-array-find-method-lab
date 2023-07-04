@@ -18,8 +18,6 @@ const record = [
 function superbowlWin(array) {
   
   let findWin = array.find(win => win.result === 'W')
-  console.log(findWin)
-
   if(typeof findWin === 'object'){
   findWin = findWin.year
   }
